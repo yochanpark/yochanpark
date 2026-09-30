@@ -26,7 +26,7 @@
 
 ### 경력
 
-**FUJIFILM Business Innovation Korea** · SD(Solution Design)팀 · 2025.11 ~ 재직 중
+**FUJIFILM Business Innovation Korea** · SD(Solution Developer)팀 · 2025.11 ~ 재직 중
 Power Platform · UiPath · Kintone 기반 자동화·플랫폼 개발, 고객사 대응 단독 담당
 - 자산관리 Canvas 앱 — KPI 대시보드, 자산 검색·상세, 바코드 출력, 바코드 스캔 기반 재고실사
 - 전자결재 시스템 — Power Apps 화면 + Power Automate 순차 결재 라우팅 + Teams Adaptive Card 알림
