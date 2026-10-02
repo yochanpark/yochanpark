@@ -22,7 +22,8 @@
 | [**iOS 앱 Intune MAM Wrapping**](https://github.com/yochanpark/ios-intune-mam-wrapping) | App Extension 6개를 유지한 채 재서명 → Wrapping → MAM 정책 적용까지 실기기로 실증. 커스텀 앱이 조건부 액세스를 통과 못 하는 구조적 제약 규명 | iOS 코드 서명 · Intune · Entra ID |
 | [**Power Pages 주문 접수 포털**](https://github.com/yochanpark/powerpages-order-portal) | 외부 거래처 주문 포털. 채번 규칙을 설정 테이블로 분리, 채번 완료 시점 트리거, managed 솔루션 배포 | Power Pages · Dataverse · Power Automate |
 | [**인재통합관리포탈 기능 확장**](https://github.com/yochanpark/powerapps-hr-portal) | 모델 기반 앱에 급여명세서 관리(계약×월, SharePoint 저장·메일 발송), 근로계약서 Word 자동 작성, Web API 자동 채움 웹 리소스 | Model-driven · JavaScript · Power Automate · SharePoint |
-| [**Kintone 전자결재 커스터마이징**](https://github.com/yochanpark/kintone-approval-customization) | 결재 완료 후에도 금액이 수정되던 내부통제 결함을 3중 차단(버튼·화면·저장)으로 봉쇄 | JavaScript · Kintone API |
+| [**Kintone 전자결재 커스터마이징**](https://github.com/yochanpark/kintone-approval-customization) | 결재 완료 후에도 금액이 수정되던 내부통제 결함을 3중 차단(버튼·화면·저장), 결재선 매트릭스를 기안자별 조건부 레코드 권한으로 옮겨 열람 범위 통제 | JavaScript · Kintone API |
+| [**UiPath 셀렉터 일괄 수정**](https://github.com/yochanpark/uipath-selector-bulk-update) | `.xaml`의 이스케이프된 셀렉터 저장 구조를 분석해 특정 버튼 셀렉터만 PowerShell 리터럴 매칭으로 일괄 교체, Orchestrator 패키지로 복구·재배포 | UiPath · PowerShell |
 | [**ERP 업무 RPA 요건정의**](https://github.com/yochanpark/rpa-process-requirements) | D365 업무 7건을 입력 경로 기준으로 분해. 화면 녹화로 프로세스 복원, 미확정 항목은 요청으로 되돌림 | RPA · Dynamics 365 |
 
 ---
