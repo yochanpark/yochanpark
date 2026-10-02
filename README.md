@@ -35,7 +35,7 @@ Power Platform · UiPath · Kintone 기반 자동화·플랫폼 개발, 고객�
 - 전자결재 시스템 — Power Apps 화면 + Power Automate 순차 결재 라우팅 + Teams Adaptive Card 알림
 - 의료기기 제조사 모바일 보안 PoC — Intune MAM 기반 iOS 앱 래핑, Entra 앱 등록·프로비저닝
 - 인력 채용·파견사 인재통합관리포탈 — 급여명세서 관리·근로계약서 자동 작성 흐름, JavaScript 웹 리소스 자동 채움
-- 디자인사 회원·주문 포털 — Power Pages, Dataverse Web API 인증·권한 이슈 해결, SharePoint 문서 권한 주문 단위 스코핑
+- 디자인사 회원·주문 포털 — Power Pages 단독 구축·운영 이관, 운영 전용 Web API 403을 Liquid 서버 렌더링으로 우회, CSP 장애 복구·보안 점검
 - UiPath 자동화 — 수백 개 `.xaml`의 셀렉터를 PowerShell로 일괄 수정 (XML 이스케이프 구조 분석)
 
 **레인보우브레인** · 기술본부 PS팀 선임 · 2024.06 ~ 2025.10
