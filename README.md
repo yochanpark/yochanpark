@@ -69,6 +69,6 @@ VMD 디스플레이 디자인 기획, 브랜드 프로모션 컨설팅 — 디�
 | Power Platform | Power Apps (Canvas · Model-driven · Power Fx), Power Automate, Power Pages, Dataverse (Web API) |
 | Microsoft 365 · 보안 | Entra ID 앱 등록·권한, Intune MAM, 조건부 액세스, SharePoint, Teams (Adaptive Cards) |
 | 모바일 | iOS 코드 서명, App ID·프로비저닝 프로파일, Intune App Wrapping |
-| AI · 자동화 | GPT API, GPT-4 Vision, Teams AI Agent, UiPath, Automation Anywhere, BrityRPA |
+| AI · 자동화 | GPT API, Teams AI Agent, UiPath, Automation Anywhere, BrityRPA |
 | 개발 · 데이터 | PowerShell, JavaScript, Node.js (Express), Python, MySQL, MSSQL, `pac` CLI |
 | 협업 플랫폼 | Kintone, Dynamics 365 |
