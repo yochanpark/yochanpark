@@ -36,13 +36,13 @@ Power Platform · UiPath · Kintone 기반 자동화·플랫폼 개발, 고객�
 - 의료기기 제조사 모바일 보안 PoC — Intune MAM 기반 iOS 앱 래핑, Entra 앱 등록·프로비저닝
 - 인력 채용·파견사 인재통합관리포탈 — 급여명세서 관리·근로계약서 자동 작성 흐름, JavaScript 웹 리소스 자동 채움
 - 디자인사 회원·주문 포털 — Power Pages, Dataverse Web API 인증·권한 이슈 해결, SharePoint 문서 권한 주문 단위 스코핑
-- 법인카드 영수증 처리 Teams 봇 — GPT-4 Vision 인식 결과를 RPA용 JSON으로 정제해 Adaptive Card로 전달
 - UiPath 자동화 — 수백 개 `.xaml`의 셀렉터를 PowerShell로 일괄 수정 (XML 이스케이프 구조 분석)
 
 **레인보우브레인** · 기술본부 PS팀 선임 · 2024.06 ~ 2025.10
 AI Agent 및 RPA 기반 업무 자동화 시스템 설계·개발
 - 제약사 — MS Teams와 GPT LLM을 연동한 업무자동화 에이전트, 수작업 보고 시간 **60% 이상 단축**
 - 바이오 기업 — 내부 DB와 AWS API를 연동한 전사형 자동화, 정확도 **99%**
+- 법인카드 영수증 처리 Teams 봇 — GPT-4 Vision 인식 결과를 RPA용 JSON으로 정제해 Adaptive Card로 전달
 
 **에코아이티** · RPA사업본부 대리 · 2021.06 ~ 2024.01
 전사 RPA 과제 개발·컨설팅, BrityRPA 인프라 구축
