@@ -18,8 +18,10 @@
 | 프로젝트 | 무엇을 했나 | 기술 |
 |---|---|---|
 | [**사내 자산관리 시스템**](https://github.com/yochanpark/powerapps-asset-management) | 검수 피드백 14장·40건 반영. Power Fx Code128 라벨 PDF, CSV 일괄 업로드, 사업부 위치 기반 조직 권한, Teams 전자결재 | Power Apps · Dataverse · Power Automate |
+| [**사내 전자결재 앱**](https://github.com/yochanpark/powerapps-electronic-approval) | 공수 산정부터 구축·운영까지 단독. 결재 상태를 결재선에서 계산해 흐름 무한 트리거 제거, Teams 순차 결재 카드, D-1 리마인드, 승인 카드 중복 원인 추적 | Power Apps · Dataverse · Power Automate · Teams |
 | [**iOS 앱 Intune MAM Wrapping**](https://github.com/yochanpark/ios-intune-mam-wrapping) | App Extension 6개를 유지한 채 재서명 → Wrapping → MAM 정책 적용까지 실기기로 실증. 커스텀 앱이 조건부 액세스를 통과 못 하는 구조적 제약 규명 | iOS 코드 서명 · Intune · Entra ID |
 | [**Power Pages 주문 접수 포털**](https://github.com/yochanpark/powerpages-order-portal) | 외부 거래처 주문 포털. 채번 규칙을 설정 테이블로 분리, 채번 완료 시점 트리거, managed 솔루션 배포 | Power Pages · Dataverse · Power Automate |
+| [**인재통합관리포탈 기능 확장**](https://github.com/yochanpark/powerapps-hr-portal) | 모델 기반 앱에 급여명세서 관리(계약×월, SharePoint 저장·메일 발송), 근로계약서 Word 자동 작성, Web API 자동 채움 웹 리소스 | Model-driven · JavaScript · Power Automate · SharePoint |
 | [**Kintone 전자결재 커스터마이징**](https://github.com/yochanpark/kintone-approval-customization) | 결재 완료 후에도 금액이 수정되던 내부통제 결함을 3중 차단(버튼·화면·저장)으로 봉쇄 | JavaScript · Kintone API |
 | [**ERP 업무 RPA 요건정의**](https://github.com/yochanpark/rpa-process-requirements) | D365 업무 7건을 입력 경로 기준으로 분해. 화면 녹화로 프로세스 복원, 미확정 항목은 요청으로 되돌림 | RPA · Dynamics 365 |
 
@@ -32,6 +34,7 @@ Power Platform · UiPath · Kintone 기반 자동화·플랫폼 개발, 고객�
 - 자산관리 Canvas 앱 — KPI 대시보드, 자산 검색·상세, 바코드 출력, 바코드 스캔 기반 재고실사
 - 전자결재 시스템 — Power Apps 화면 + Power Automate 순차 결재 라우팅 + Teams Adaptive Card 알림
 - 의료기기 제조사 모바일 보안 PoC — Intune MAM 기반 iOS 앱 래핑, Entra 앱 등록·프로비저닝
+- 인력 채용·파견사 인재통합관리포탈 — 급여명세서 관리·근로계약서 자동 작성 흐름, JavaScript 웹 리소스 자동 채움
 - 디자인사 회원·주문 포털 — Power Pages, Dataverse Web API 인증·권한 이슈 해결, SharePoint 문서 권한 주문 단위 스코핑
 - 법인카드 영수증 처리 Teams 봇 — GPT-4 Vision 인식 결과를 RPA용 JSON으로 정제해 Adaptive Card로 전달
 - UiPath 자동화 — 수백 개 `.xaml`의 셀렉터를 PowerShell로 일괄 수정 (XML 이스케이프 구조 분석)
