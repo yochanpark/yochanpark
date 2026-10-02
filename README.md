@@ -5,7 +5,7 @@
 
 - **RPA** — 자동화 과제 200여 개를 PL로 운영, COE 조직 전략과 운영 정책 표준화
 - **Power Platform** — Power Apps · Dataverse · Power Automate 사내 업무 시스템(전자결재 · Teams 승인), Power Pages 외부 포털
-- **AI Agent** — Teams + GPT LLM 업무 자동화 에이전트(보고 시간 60%+ 단축), GPT-4 Vision 영수증 처리 봇
+- **AI Agent** — Teams + GPT LLM 업무 자동화 에이전트(보고 시간 60%+ 단축), 근태·자원 예약·법인카드 요청을 RPA 입력 JSON으로 바꾸는 Teams GPT 에이전트
 - **보안 인프라** — iOS 앱 Intune MAM Wrapping, Entra ID 앱 등록·권한, 조건부 액세스 기술 검증
 - 요건정의부터 게시 검증까지 — "저장했다"가 아니라 "게시본에서 확인했다"로 끝낸다
 
@@ -43,7 +43,7 @@ Power Platform · UiPath · Kintone 기반 자동화·플랫폼 개발, 고객�
 AI Agent 및 RPA 기반 업무 자동화 시스템 설계·개발
 - 제약사 — MS Teams와 GPT LLM을 연동한 업무자동화 에이전트, 수작업 보고 시간 **60% 이상 단축**
 - 바이오 기업 — 내부 DB와 AWS API를 연동한 전사형 자동화, 정확도 **99%**
-- 법인카드 영수증 처리 Teams 봇 — GPT-4 Vision 인식 결과를 RPA용 JSON으로 정제해 Adaptive Card로 전달
+- Teams GPT 업무 에이전트 — 근태·자원 예약·법인카드 요청을 규칙형 프롬프트로 RPA 입력 JSON화
 
 **에코아이티** · RPA사업본부 대리 · 2021.06 ~ 2024.01
 전사 RPA 과제 개발·컨설팅, BrityRPA 인프라 구축
