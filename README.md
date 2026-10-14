@@ -17,7 +17,8 @@ Teams와 LLM을 업무 시스템에 붙여 사람이 하던 보고·요청 처�
 
 | 프로젝트 | 무엇을 했나 | 기술 |
 |---|---|---|
-| [**Teams 업무 에이전트**](https://github.com/yochanpark/teams-work-agent) | 제약사 과제로 만든 Teams 근태·자원 예약 에이전트를 개인 프로젝트로 재구현. 의도 분류 → strict JSON 스키마 추출 → 날짜·자원 규칙은 코드로 확정 → 확인 카드 → RPA 실행. 원본 프롬프트 규칙을 테스트 35개로 고정 | Node.js · Bot Framework · OpenAI · Adaptive Cards · Automation Anywhere |
+| [**Teams 업무 에이전트**](https://github.com/yochanpark/teams-work-agent) | 제약사 과제로 만든 Teams 근태·자원 예약 에이전트를 개인 프로젝트로 재구현. 의도 분류 → strict JSON 스키마 추출 → 날짜·자원 규칙은 코드로 확정 → 확인 카드 → RPA 실행. 원본 프롬프트 규칙을 테스트로 고정하고, 실제 모델 평가 41문장(구어체·공휴일·프롬프트 주입 포함)에서 찾은 결함을 고쳐 41/41 | Node.js · Bot Framework · OpenAI·Gemini API · Adaptive Cards · Automation Anywhere |
+| [**사내 규정 RAG**](https://github.com/yochanpark/policy-rag) | 규정을 조항 단위로 검색해 근거 조항만으로 답하고 출처를 인용, 근거가 없으면 거절. 인용 가능 조항을 스키마 enum으로 제한, "○○ 규정에 따라" 참조를 따라가 다른 규정까지 검색. 평가 37문항 37/37 | Python · Chroma · Gemini API · pytest |
 | [**사내 자산관리 시스템**](https://github.com/yochanpark/powerapps-asset-management) | 검수 피드백 14장·40건 반영. Power Fx Code128 라벨 PDF, CSV 일괄 업로드, 사업부 위치 기반 조직 권한, Teams 전자결재 | Power Apps · Dataverse · Power Automate |
 | [**사내 전자결재 앱**](https://github.com/yochanpark/powerapps-electronic-approval) | 공수 산정부터 구축·운영까지 단독. 결재 상태를 결재선에서 계산해 흐름 무한 트리거 제거, Teams 순차 결재 카드, D-1 리마인드, 승인 카드 중복 원인 추적 | Power Apps · Dataverse · Power Automate · Teams |
 | [**iOS 앱 Intune MAM Wrapping**](https://github.com/yochanpark/ios-intune-mam-wrapping) | App Extension 6개를 유지한 채 재서명 → Wrapping → MAM 정책 적용까지 실기기로 실증. 커스텀 앱이 조건부 액세스를 통과 못 하는 구조적 제약 규명 | iOS 코드 서명 · Intune · Entra ID |
@@ -74,6 +75,6 @@ VMD 디스플레이 디자인 기획, 브랜드 프로모션 컨설팅 — 디�
 | Power Platform | Power Apps (Canvas · Model-driven · Power Fx), Power Automate, Power Pages, Dataverse (Web API) |
 | Microsoft 365 · 보안 | Entra ID 앱 등록·권한, Intune MAM, 조건부 액세스, SharePoint, Teams (Adaptive Cards) |
 | 모바일 | iOS 코드 서명, App ID·프로비저닝 프로파일, Intune App Wrapping |
-| AI · 자동화 | GPT API, Teams AI Agent, UiPath, Automation Anywhere, BrityRPA |
+| AI · 자동화 | GPT API, Gemini API, Teams AI Agent, RAG(Chroma), LLM 평가 세트, UiPath, Automation Anywhere, BrityRPA |
 | 개발 · 데이터 | PowerShell, JavaScript, Node.js (Express), Python, MySQL, MSSQL, `pac` CLI |
 | 협업 플랫폼 | Kintone, Dynamics 365 |
