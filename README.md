@@ -27,6 +27,10 @@ Teams와 LLM을 업무 시스템에 붙여 사람이 하던 보고·요청 처�
 | [**UiPath 셀렉터 일괄 수정**](https://github.com/yochanpark/uipath-selector-bulk-update) | `.xaml`의 이스케이프된 셀렉터 저장 구조를 분석해 특정 버튼 셀렉터만 PowerShell 리터럴 매칭으로 일괄 교체, Orchestrator 패키지로 복구·재배포 | UiPath · PowerShell |
 | [**ERP 업무 RPA 요건정의**](https://github.com/yochanpark/rpa-process-requirements) | D365 업무 7건을 입력 경로 기준으로 분해. 화면 녹화로 프로세스 복원, 미확정 항목은 요청으로 되돌림 | RPA · Dynamics 365 |
 
+### 학습 기록
+
+업무 밖에서 따로 익힌 것들은 [**dev-study-log**](https://github.com/yochanpark/dev-study-log)에 작은 프로젝트로 모았다 — Node.js + MSSQL 회원관리 웹앱, LLM API 웹 채팅(429·503 재시도), 웹 서버에서 RPA 봇 실행·결과 수신, Puppeteer 브라우저 자동화, Google Apps Script.
+
 ---
 
 ### 경력
