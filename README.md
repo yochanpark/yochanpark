@@ -1,12 +1,12 @@
 ## 박요찬 · Park Yochan
 
-**M365 · Power Platform · AI Agent 개발자.** 자동화·개발 약 5년.
-업무 자동화를 한 길로 파 왔다 — **RPA → Power Platform → Teams GPT 에이전트**. 앱이 올라가는 인증·보안 인프라(Entra ID · Intune MAM)까지 같이 다룬다.
+**AI Agent · M365 · Power Platform 개발자.** 자동화·개발 약 5년.
+Teams와 LLM을 업무 시스템에 붙여 사람이 하던 보고·요청 처리를 에이전트로 옮긴다. 그 에이전트가 돌아갈 Power Platform 업무 시스템과 인증·보안 인프라(Entra ID · Intune MAM)까지 직접 만든다.
 
-- **RPA** — 자동화 과제 200여 개를 PL로 운영, COE 조직 전략과 운영 정책 표준화
+- **AI Agent** — Teams + GPT LLM 업무 자동화 에이전트(보고 시간 60%+ 단축), 근태·자원 예약·법인카드 요청을 규칙형 프롬프트로 RPA 입력 JSON화
 - **Power Platform** — Power Apps · Dataverse · Power Automate 사내 업무 시스템(전자결재 · Teams 승인), Power Pages 외부 포털
-- **AI Agent** — Teams + GPT LLM 업무 자동화 에이전트(보고 시간 60%+ 단축), 근태·자원 예약·법인카드 요청을 RPA 입력 JSON으로 바꾸는 Teams GPT 에이전트
 - **보안 인프라** — iOS 앱 Intune MAM Wrapping, Entra ID 앱 등록·권한, 조건부 액세스 기술 검증
+- **자동화 기반** — RPA 과제 200여 개 PL 운영, COE 전략·운영 정책 표준화
 - 요건정의부터 게시 검증까지 — "저장했다"가 아니라 "게시본에서 확인했다"로 끝낸다
 
 📫 x9vsyo@gmail.com
