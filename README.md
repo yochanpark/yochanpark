@@ -17,6 +17,7 @@ Teams와 LLM을 업무 시스템에 붙여 사람이 하던 보고·요청 처�
 
 | 프로젝트 | 무엇을 했나 | 기술 |
 |---|---|---|
+| [**Teams 업무 에이전트**](https://github.com/yochanpark/teams-work-agent) | 제약사 과제로 만든 Teams 근태·자원 예약 에이전트를 개인 프로젝트로 재구현. 의도 분류 → strict JSON 스키마 추출 → 날짜·자원 규칙은 코드로 확정 → 확인 카드 → RPA 실행. 원본 프롬프트 규칙을 테스트 35개로 고정 | Node.js · Bot Framework · OpenAI · Adaptive Cards · Automation Anywhere |
 | [**사내 자산관리 시스템**](https://github.com/yochanpark/powerapps-asset-management) | 검수 피드백 14장·40건 반영. Power Fx Code128 라벨 PDF, CSV 일괄 업로드, 사업부 위치 기반 조직 권한, Teams 전자결재 | Power Apps · Dataverse · Power Automate |
 | [**사내 전자결재 앱**](https://github.com/yochanpark/powerapps-electronic-approval) | 공수 산정부터 구축·운영까지 단독. 결재 상태를 결재선에서 계산해 흐름 무한 트리거 제거, Teams 순차 결재 카드, D-1 리마인드, 승인 카드 중복 원인 추적 | Power Apps · Dataverse · Power Automate · Teams |
 | [**iOS 앱 Intune MAM Wrapping**](https://github.com/yochanpark/ios-intune-mam-wrapping) | App Extension 6개를 유지한 채 재서명 → Wrapping → MAM 정책 적용까지 실기기로 실증. 커스텀 앱이 조건부 액세스를 통과 못 하는 구조적 제약 규명 | iOS 코드 서명 · Intune · Entra ID |
